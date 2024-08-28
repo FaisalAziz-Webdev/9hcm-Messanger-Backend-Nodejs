@@ -14,4 +14,6 @@ const connectDB = () => {
         .catch(err => console.error('Connection error', err.stack));
 };
 
+
+
 module.exports = { client, connectDB };
